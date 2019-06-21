@@ -1,10 +1,4 @@
-#!/usr/bin/env node
-
-/**
- * Module dependencies.
- */
-
-var program = require('commander')
+import program from 'commander'
 
 program
   .version('1.0.0')

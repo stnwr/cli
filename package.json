@@ -1,14 +1,18 @@
 {
   "name": "@stoneware/cli",
   "version": "1.0.0",
-  "description": "Stoneware CLI",
+  "description": "stoneware cli",
   "main": "index.js",
+  "bin": {
+    "stw": "./bin/cmd.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.20.0"
+    "commander": "^2.20.0",
+    "esm": "^3.2.25"
   }
 }
